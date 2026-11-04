@@ -5,7 +5,8 @@
         "core": "*",
         "radio": "*",
         "microphone": "*",
-        "Plant Monitor": "github:monkmakes/plant-monitor-makecode#v0.0.5"
+        "Plant Monitor": "github:monkmakes/plant-monitor-makecode#v0.0.5",
+        "gatorSoil": "github:sparkfun/pxt-gator-soil#v1.1.2"
     },
     "files": [
         "main.blocks",
@@ -17,7 +18,7 @@
         "test.ts"
     ],
     "targetVersions": {
-        "target": "8.0.22",
+        "target": "9.0.12",
         "targetId": "microbit"
     },
     "supportedTargets": [
