@@ -4,8 +4,8 @@ let humidity = 0
 let temp = 0
 let nodeId = 5
 radio.setGroup(99)
+basic.pause(5000)
 PlantMonitor.startMon()
-basic.pause(1000)
 PlantMonitor.monitor_led_off()
 basic.forever(function () {
     temp = PlantMonitor.readTemp()
